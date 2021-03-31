@@ -1,0 +1,18 @@
+.btn {
+    background-color: #fff;
+    font-size: 1.6rem;
+    color: #023a15;
+    border: none;
+    padding: 1rem 1.6rem 1.4rem 2.8rem;
+    border-radius: .4rem;
+    cursor: pointer;
+}
+
+.btn::before {
+    content: "";
+    display: inline-block;
+    background-image: url('../../img/buttonlogo.svg');
+    width: 2.4rem;
+    height: 2.4rem;
+    transform: translateY(5px) translateX(-10px);
+}
