@@ -1,0 +1,26 @@
+.advantages {
+    margin-top: -20rem;
+    background-color: #fff;
+    &__wrap {
+        padding-top: 25rem;
+    }
+
+    &__content {
+        display: flex;
+    }
+
+    &__description {
+        
+        margin-right: 35rem;
+    }
+    &__img {
+        margin-top: -10rem;
+        margin-right: 25rem;
+    }
+
+    &__text {
+        max-width: 40rem;
+    }
+
+
+}

@@ -1,8 +1,46 @@
-.heading-primary {
+.heading-primary,
+.footer__heading {
     font-family: $font-heading;
     font-size: 10.6rem;
     color: #ffffff;
         span {
             color: $span-color;
         }
+}
+
+.header__text,
+.footer__text {
+        padding-top: 3rem;
+        font-size: 1.2rem;
+        color: #ffffff;
+}
+
+.heading-secondary {
+    font-family: $font-heading;
+    font-size: 6.6rem;
+    min-width: 67rem;
+    line-height: 8rem;
+    letter-spacing: 2px;
+    margin-bottom: 5rem;
+    transition: text-shadow 0.8s;
+}
+
+.heading-tertiary {
+    font-family: $font-heading;
+    font-size: 5.3rem;
+    letter-spacing: 2px;
+    max-width: 35rem;
+    margin-bottom: 2rem;
+    transition: text-shadow 0.8s;
+}
+.heading-secondary:hover,
+.heading-tertiary:hover {
+    cursor: pointer;
+    color: #111010;
+    text-shadow: 7px 14px 7px rgba(255, 120, 131, 50%);
+}
+
+.text {
+        font-size: 1.8rem;
+        max-width: 50rem;
 }

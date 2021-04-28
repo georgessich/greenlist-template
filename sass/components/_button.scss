@@ -6,6 +6,8 @@
     padding: 1rem 1.6rem 1.4rem 2.8rem;
     border-radius: .4rem;
     cursor: pointer;
+    outline: none;
+    transition: all .2s;
 }
 
 .btn::before {
@@ -15,4 +17,12 @@
     width: 2.4rem;
     height: 2.4rem;
     transform: translateY(5px) translateX(-10px);
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.btn:active {
+    transform: translateY(2px);
 }

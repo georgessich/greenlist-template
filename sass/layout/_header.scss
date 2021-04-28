@@ -20,14 +20,17 @@
         font-size: 1.6rem;
     }
 
+    &__link:hover {
+        color: rgba(#ffffff, 0.7);
+    }
+
     &__hero {
         padding-top: 8rem;
         display: flex;
+
+        &-img {
+            height: 100%;
+        }
     }
 
-    &__text {
-        padding-top: 3rem;
-        font-size: 1.2rem;
-        color: #ffffff;
-    }
 }

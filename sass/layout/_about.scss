@@ -1,0 +1,16 @@
+.about {
+
+    &__content {
+        padding-top: 13rem;
+        display: flex;
+        & img {
+            margin-left: 16rem;
+            padding-top: 20rem;
+        }
+    }
+
+    &__img--2 {
+        margin-top: -10rem;
+    }
+
+}
